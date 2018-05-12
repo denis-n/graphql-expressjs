@@ -9,7 +9,7 @@ app.use('/graphql', expressGraphQL({
     graphiql: true
 }));
 
-const port = 333;
+const port = 3333;
 app.listen(port, () => {
     console.log(`Listinging to port ${port}...`);
 })
